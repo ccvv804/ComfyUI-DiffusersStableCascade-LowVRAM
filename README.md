@@ -1,4 +1,4 @@
-# ComfyUI StableCascade using diffusers
+# ComfyUI StableCascade using diffusers for Low VRAM
 
 Simple quick wrapper for https://huggingface.co/stabilityai/stable-cascade
 
