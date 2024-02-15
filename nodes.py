@@ -42,7 +42,9 @@ class DiffusersStableCascade:
         if not hasattr(self, 'prior') or not hasattr(self, 'decoder'):
 
             self.prior = StableCascadePriorPipeline.from_pretrained("stabilityai/stable-cascade-prior", torch_dtype=torch.bfloat16).to(device)
+            self.prior.enable_model_cpu_offload()
             self.decoder = StableCascadeDecoderPipeline.from_pretrained("stabilityai/stable-cascade",  torch_dtype=torch.float16).to(device)
+            self.decoder.enable_model_cpu_offload()
 
         prior_output = self.prior(
             image=image,
