@@ -1,4 +1,6 @@
-# ComfyUI StableCascade using diffusers
+# ComfyUI StableCascade using diffusers for Low VRAM
+
+Works with RTX 4070ti 12GB.
 
 Simple quick wrapper for https://huggingface.co/stabilityai/stable-cascade
 
