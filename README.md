@@ -9,5 +9,6 @@ Comfy is going to implement this properly soon, this repo is just for quick test
 Currently requires this diffusers branch and accelerate
 ```
 pip install git+https://github.com/kashif/diffusers.git@wuerstchen-v3
+typing-extensions>=4.9.0
 pip install accelerate
 ```
