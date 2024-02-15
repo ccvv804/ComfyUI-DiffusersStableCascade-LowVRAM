@@ -4,10 +4,10 @@ Works with RTX 4070ti 12GB.
 
 Simple quick wrapper for https://huggingface.co/stabilityai/stable-cascade
 
-Currently requires the diffusers branch: https://github.com/kashif/diffusers.git@wuerstchen-v3
+Comfy is going to implement this properly soon, this repo is just for quick testing for the impatient!
 
-if requirements.txt install fails:
+Currently requires this diffusers branch and accelerate
 ```
-pip install git+https://github.com/kashif/diffusers.git@wuerstchen-v3'
+pip install git+https://github.com/kashif/diffusers.git@wuerstchen-v3
 pip install accelerate
 ```
